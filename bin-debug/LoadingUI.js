@@ -40,19 +40,37 @@ var LoadingUI = (function (_super) {
     __extends(LoadingUI, _super);
     function LoadingUI() {
         var _this = _super.call(this) || this;
-        _this.createView();
+        _this.addEventListener(egret.Event.ADDED_TO_STAGE, _this.createView, _this);
         return _this;
     }
     LoadingUI.prototype.createView = function () {
+        this.width = this.stage.stageWidth;
+        this.height = this.stage.stageHeight;
+        this.bgImg = new egret.Bitmap();
+        this.bgImg.texture = RES.getRes('loading_jpg');
+        this.addChild(this.bgImg);
+        this.loadImg = new egret.Bitmap();
+        this.loadImg.texture = RES.getRes('loading2_png');
+        this.loadImg.anchorOffsetX = this.loadImg.width / 2;
+        this.loadImg.anchorOffsetY = this.loadImg.height / 2;
+        this.loadImg.x = this.width / 2;
+        this.loadImg.y = this.height / 2;
+        this.addChild(this.loadImg);
         this.textField = new egret.TextField();
         this.addChild(this.textField);
-        this.textField.y = 300;
+        this.textField.y = this.height / 2 - this.textField.height / 2;
         this.textField.width = 480;
-        this.textField.height = 100;
+        this.textField.height = 20;
+        this.textField.size = 14;
         this.textField.textAlign = "center";
+        this.addEventListener(egret.Event.ENTER_FRAME, this.updata, this);
+    };
+    LoadingUI.prototype.updata = function () {
+        this.loadImg.rotation += 5;
     };
     LoadingUI.prototype.onProgress = function (current, total) {
-        this.textField.text = "Loading..." + current + "/" + total;
+        var per = Math.floor((current / total) * 100);
+        this.textField.text = per + "%";
     };
     return LoadingUI;
 }(egret.Sprite));

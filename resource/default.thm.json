@@ -12,7 +12,14 @@
 		"eui.ToggleSwitch": "resource/eui_skins/ToggleSwitchSkin.exml",
 		"eui.VScrollBar": "resource/eui_skins/VScrollBarSkin.exml",
 		"eui.VSlider": "resource/eui_skins/VSliderSkin.exml",
-		"eui.ItemRenderer": "resource/eui_skins/ItemRendererSkin.exml"
+		"eui.ItemRenderer": "resource/eui_skins/ItemRendererSkin.exml",
+		"MainScene": "resource/skins/MainScene.exml",
+		"mbtnPlayer": "resource/skins/skins_item/mbtnPlayer.exml",
+		"mbtnHero": "resource/skins/skins_item/mbtnHero.exml",
+		"mbtnGoods": "resource/skins/skins_item/mbtnGoods.exml",
+		"mbtnAbout": "resource/skins/skins_item/mbtnAbout.exml",
+		"PlayerScene": "resource/skins/PlayerScene.exml",
+		"zhuangbeiItem": "resource/skins/skins_item/zhuangbeiItem.exml"
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
@@ -28,7 +35,14 @@
 		"resource/eui_skins/TextInputSkin.exml",
 		"resource/eui_skins/ToggleSwitchSkin.exml",
 		"resource/eui_skins/VScrollBarSkin.exml",
-		"resource/eui_skins/VSliderSkin.exml"
+		"resource/eui_skins/VSliderSkin.exml",
+		"resource/skins/skins_item/mbtnPlayer.exml",
+		"resource/skins/skins_item/mbtnHero.exml",
+		"resource/skins/skins_item/mbtnGoods.exml",
+		"resource/skins/skins_item/mbtnAbout.exml",
+		"resource/skins/MainScene.exml",
+		"resource/skins/PlayerScene.exml",
+		"resource/skins/skins_item/zhuangbeiItem.exml"
 	],
 	"path": "resource/default.thm.json"
 }

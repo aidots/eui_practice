@@ -1,15 +1,15 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,bgListPage_jpg,btnOK_png,checkNo_png,checked_png,goods01_png,goods02_png,goods03_png,goods04_png,goods05_png,goods06_png,goods07_png,goodsTitle_png,hScrollBar01_png,hScrollBar02_png,heros01_png,heros02_png,heros03_png,heros07_png,herosTitle_png,listItemBkgd_png,commonBg_jpg,homeBg_jpg,about-bg_png,about_png,close_png,heros04_png,heros05_png,heros06_png,loading_jpg,loading2_png,toast-bg_png,btnEquip_png,btnReturn_png,btnStrengthen_png,mbtnAbout_png,mbtnGoods_png,mbtnHero_png,mbtnPlayer_png,mbtn_Bg_png,mbtn_BgFc_png,profileContent_png,profileTitle_png,skillBg_png,skillIcon01_png,skillIcon02_png,skillIcon03_png,skillIcon04_png,skillIcon05_png,skillIcon06_png,skillIcon07_png,skillItemFrame_png",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,commonBg_jpg,homeBg_jpg,about-bg_png,about_png,close_png,btnEquip_png,btnReturn_png,btnStrengthen_png,mbtnAbout_png,mbtnGoods_png,mbtnHero_png,mbtnPlayer_png,mbtn_Bg_png,mbtn_BgFc_png,profileContent_png,profileTitle_png,skillBg_png,skillIcon01_png,skillIcon02_png,skillIcon03_png,skillIcon04_png,skillIcon05_png,skillIcon06_png,skillIcon07_png,skillItemFrame_png",
 			"name": "preload"
 		},
 		{
-			"keys": "",
+			"keys": "bgListPage_jpg,btnOK_png,checked_png,checkNo_png,goods01_png,goods02_png,goods03_png,goods04_png,goods05_png,goods06_png,goods07_png,goodsTitle_png,heros01_png,heros02_png,heros03_png,heros04_png,heros05_png,heros06_png,heros07_png,herosTitle_png,hScrollBar01_png,hScrollBar02_png,listItemBkgd_png",
 			"name": "heros_goods"
 		},
 		{
-			"keys": "",
+			"keys": "loading_jpg,loading2_png,toast-bg_png",
 			"name": "loading"
 		}
 	],
@@ -145,106 +145,6 @@
 			"name": "description_json"
 		},
 		{
-			"url": "art/heros_goods/bgListPage.jpg",
-			"type": "image",
-			"name": "bgListPage_jpg"
-		},
-		{
-			"url": "art/heros_goods/btnOK.png",
-			"type": "image",
-			"name": "btnOK_png"
-		},
-		{
-			"url": "art/heros_goods/checkNo.png",
-			"type": "image",
-			"name": "checkNo_png"
-		},
-		{
-			"url": "art/heros_goods/checked.png",
-			"type": "image",
-			"name": "checked_png"
-		},
-		{
-			"url": "art/heros_goods/goods01.png",
-			"type": "image",
-			"name": "goods01_png"
-		},
-		{
-			"url": "art/heros_goods/goods02.png",
-			"type": "image",
-			"name": "goods02_png"
-		},
-		{
-			"url": "art/heros_goods/goods03.png",
-			"type": "image",
-			"name": "goods03_png"
-		},
-		{
-			"url": "art/heros_goods/goods04.png",
-			"type": "image",
-			"name": "goods04_png"
-		},
-		{
-			"url": "art/heros_goods/goods05.png",
-			"type": "image",
-			"name": "goods05_png"
-		},
-		{
-			"url": "art/heros_goods/goods06.png",
-			"type": "image",
-			"name": "goods06_png"
-		},
-		{
-			"url": "art/heros_goods/goods07.png",
-			"type": "image",
-			"name": "goods07_png"
-		},
-		{
-			"url": "art/heros_goods/goodsTitle.png",
-			"type": "image",
-			"name": "goodsTitle_png"
-		},
-		{
-			"url": "art/heros_goods/hScrollBar01.png",
-			"type": "image",
-			"name": "hScrollBar01_png"
-		},
-		{
-			"url": "art/heros_goods/hScrollBar02.png",
-			"type": "image",
-			"name": "hScrollBar02_png"
-		},
-		{
-			"url": "art/heros_goods/heros01.png",
-			"type": "image",
-			"name": "heros01_png"
-		},
-		{
-			"url": "art/heros_goods/heros02.png",
-			"type": "image",
-			"name": "heros02_png"
-		},
-		{
-			"url": "art/heros_goods/heros03.png",
-			"type": "image",
-			"name": "heros03_png"
-		},
-		{
-			"url": "art/heros_goods/heros07.png",
-			"type": "image",
-			"name": "heros07_png"
-		},
-		{
-			"url": "art/heros_goods/herosTitle.png",
-			"type": "image",
-			"name": "herosTitle_png"
-		},
-		{
-			"url": "art/heros_goods/listItemBkgd.png",
-			"type": "image",
-			"name": "listItemBkgd_png"
-		},
-		{
 			"url": "art/home/commonBg.jpg",
 			"type": "image",
 			"name": "commonBg_jpg"
@@ -268,36 +168,6 @@
 			"url": "art/about/close.png",
 			"type": "image",
 			"name": "close_png"
-		},
-		{
-			"url": "art/heros_goods/heros04.png",
-			"type": "image",
-			"name": "heros04_png"
-		},
-		{
-			"url": "art/heros_goods/heros05.png",
-			"type": "image",
-			"name": "heros05_png"
-		},
-		{
-			"url": "art/heros_goods/heros06.png",
-			"type": "image",
-			"name": "heros06_png"
-		},
-		{
-			"url": "art/loading/loading.jpg",
-			"type": "image",
-			"name": "loading_jpg"
-		},
-		{
-			"url": "art/loading/loading2.png",
-			"type": "image",
-			"name": "loading2_png"
-		},
-		{
-			"url": "art/loading/toast-bg.png",
-			"type": "image",
-			"name": "toast-bg_png"
 		},
 		{
 			"url": "art/profile/btnEquip.png",
@@ -398,6 +268,136 @@
 			"url": "art/profile/skillItemFrame.png",
 			"type": "image",
 			"name": "skillItemFrame_png"
+		},
+		{
+			"url": "art/heros_goods/bgListPage.jpg",
+			"type": "image",
+			"name": "bgListPage_jpg"
+		},
+		{
+			"url": "art/heros_goods/btnOK.png",
+			"type": "image",
+			"name": "btnOK_png"
+		},
+		{
+			"url": "art/heros_goods/checkNo.png",
+			"type": "image",
+			"name": "checkNo_png"
+		},
+		{
+			"url": "art/heros_goods/checked.png",
+			"type": "image",
+			"name": "checked_png"
+		},
+		{
+			"url": "art/heros_goods/goods01.png",
+			"type": "image",
+			"name": "goods01_png"
+		},
+		{
+			"url": "art/heros_goods/goods02.png",
+			"type": "image",
+			"name": "goods02_png"
+		},
+		{
+			"url": "art/heros_goods/goods03.png",
+			"type": "image",
+			"name": "goods03_png"
+		},
+		{
+			"url": "art/heros_goods/goods04.png",
+			"type": "image",
+			"name": "goods04_png"
+		},
+		{
+			"url": "art/heros_goods/goods05.png",
+			"type": "image",
+			"name": "goods05_png"
+		},
+		{
+			"url": "art/heros_goods/goods06.png",
+			"type": "image",
+			"name": "goods06_png"
+		},
+		{
+			"url": "art/heros_goods/goods07.png",
+			"type": "image",
+			"name": "goods07_png"
+		},
+		{
+			"url": "art/heros_goods/goodsTitle.png",
+			"type": "image",
+			"name": "goodsTitle_png"
+		},
+		{
+			"url": "art/heros_goods/hScrollBar01.png",
+			"type": "image",
+			"name": "hScrollBar01_png"
+		},
+		{
+			"url": "art/heros_goods/hScrollBar02.png",
+			"type": "image",
+			"name": "hScrollBar02_png"
+		},
+		{
+			"url": "art/heros_goods/heros01.png",
+			"type": "image",
+			"name": "heros01_png"
+		},
+		{
+			"url": "art/heros_goods/heros02.png",
+			"type": "image",
+			"name": "heros02_png"
+		},
+		{
+			"url": "art/heros_goods/heros03.png",
+			"type": "image",
+			"name": "heros03_png"
+		},
+		{
+			"url": "art/heros_goods/heros04.png",
+			"type": "image",
+			"name": "heros04_png"
+		},
+		{
+			"url": "art/heros_goods/heros05.png",
+			"type": "image",
+			"name": "heros05_png"
+		},
+		{
+			"url": "art/heros_goods/heros06.png",
+			"type": "image",
+			"name": "heros06_png"
+		},
+		{
+			"url": "art/heros_goods/heros07.png",
+			"type": "image",
+			"name": "heros07_png"
+		},
+		{
+			"url": "art/heros_goods/herosTitle.png",
+			"type": "image",
+			"name": "herosTitle_png"
+		},
+		{
+			"url": "art/heros_goods/listItemBkgd.png",
+			"type": "image",
+			"name": "listItemBkgd_png"
+		},
+		{
+			"url": "art/loading/loading.jpg",
+			"type": "image",
+			"name": "loading_jpg"
+		},
+		{
+			"url": "art/loading/loading2.png",
+			"type": "image",
+			"name": "loading2_png"
+		},
+		{
+			"url": "art/loading/toast-bg.png",
+			"type": "image",
+			"name": "toast-bg_png"
 		}
 	]
 }

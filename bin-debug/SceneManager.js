@@ -32,7 +32,7 @@ var SceneManager = (function () {
     };
     SceneManager.toPlayerScene = function () {
         var stage = this.instance._stage;
-        this.instance.mainScene.addChild(this.instance.playScene);
+        stage.addChild(this.instance.playScene);
     };
     return SceneManager;
 }());

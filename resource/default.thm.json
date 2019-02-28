@@ -20,7 +20,9 @@
 		"mbtnAbout": "resource/skins/skins_item/mbtnAbout.exml",
 		"PlayerScene": "resource/skins/PlayerScene.exml",
 		"zhuangbeiItem": "resource/skins/skins_item/zhuangbeiItem.exml",
-		"HeroScene": "resource/skins/HeroScene.exml"
+		"HeroScene": "resource/skins/HeroScene.exml",
+		"GoodsScene": "resource/skins/GoodsScene.exml",
+		"AboutScene": "resource/skins/AboutScene.exml"
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
@@ -37,6 +39,8 @@
 		"resource/eui_skins/ToggleSwitchSkin.exml",
 		"resource/eui_skins/VScrollBarSkin.exml",
 		"resource/eui_skins/VSliderSkin.exml",
+		"resource/skins/AboutScene.exml",
+		"resource/skins/GoodsScene.exml",
 		"resource/skins/HeroScene.exml",
 		"resource/skins/skins_item/mbtnPlayer.exml",
 		"resource/skins/skins_item/mbtnHero.exml",
@@ -44,6 +48,7 @@
 		"resource/skins/skins_item/mbtnAbout.exml",
 		"resource/skins/MainScene.exml",
 		"resource/skins/PlayerScene.exml",
+		"resource/skins/skins_item/goodsListItem.exml",
 		"resource/skins/skins_item/heroListItem.exml",
 		"resource/skins/skins_item/zhuangbeiItem.exml"
 	],

@@ -19,11 +19,11 @@ var HeroScene = (function (_super) {
     HeroScene.prototype.childrenCreated = function () {
         _super.prototype.childrenCreated.call(this);
         var dataArr = [
-            { image: 'resource/art/heros_goods/heros01.png', name: '亚特伍德', value: '评价：很特么厉害，为所欲为', isSelected: false },
+            { image: 'resource/art/heros_goods/heros01.png', name: '亚特伍', value: '评价：很特么厉害，为所欲为', isSelected: false },
             { image: 'resource/art/heros_goods/heros02.png', name: '特朗普', value: '评价：很特么厉害，为所欲为', isSelected: false },
             { image: 'resource/art/heros_goods/heros03.png', name: '梵高', value: '评价：很特么厉害，为所欲为', isSelected: true },
-            { image: 'resource/art/heros_goods/heros04.png', name: '东方', value: '评价：很特么厉害，为所欲为', isSelected: false },
-            { image: 'resource/art/heros_goods/heros05.png', name: '张小', value: '评价：很特么厉害，为所欲为', isSelected: false },
+            { image: 'resource/art/heros_goods/heros04.png', name: '佩奇', value: '评价：很特么厉害，为所欲为', isSelected: false },
+            { image: 'resource/art/heros_goods/heros05.png', name: '张三丰', value: '评价：很特么厉害，为所欲为', isSelected: false },
             { image: 'resource/art/heros_goods/heros06.png', name: '东本物', value: '评价：很特么厉害，为所欲为', isSelected: false },
             { image: 'resource/art/heros_goods/heros07.png', name: '凡尔赛', value: '评价：很特么厉害，为所欲为', isSelected: false },
         ];
@@ -31,6 +31,7 @@ var HeroScene = (function (_super) {
         this.list_hero.dataProvider = EUIArr;
         this.list_hero.itemRenderer = HeroList_item;
         this.btn_select.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onSelect, this);
+        this.btn_return.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onReturn, this);
     };
     HeroScene.prototype.onSelect = function (e) {
         SceneManager.toMainScene();
@@ -45,6 +46,10 @@ var HeroScene = (function (_super) {
         }
         SceneManager.showInfo(arr);
         //console.log(arr)
+    };
+    HeroScene.prototype.onReturn = function (e) {
+        SceneManager.toMainScene();
+        SceneManager.instance.mainScene.toggleBtn(0);
     };
     return HeroScene;
 }(eui.Component));

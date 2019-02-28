@@ -23,12 +23,12 @@ class MainScene extends eui.Component implements eui.UIComponent {
 		this.Group_mbtn.addEventListener(egret.TouchEvent.TOUCH_TAP, (e) => {
 			let theBtn = <eui.ToggleButton>e.target;
 
-			if (theBtn.selected && theBtn.selected != undefined) {
-				this.toggleBtn(theBtn);
-			} else {
-				theBtn.selected = true;
-			}
-			//this.toggleBtn(theBtn);
+			// if (theBtn.selected && theBtn.selected != undefined) {
+			// 	this.toggleBtn(theBtn);
+			// } else {
+			// 	theBtn.selected = true;
+			// }
+			this.toggleBtn(theBtn);
 		}, this);
 	}
 
@@ -51,6 +51,14 @@ class MainScene extends eui.Component implements eui.UIComponent {
 				break
 			case 1:
 				SceneManager.toHeroScene()
+				this.setChildIndex(this.Group_mbtn, this.numChildren)
+				break
+			case 2:
+				SceneManager.toGoodsScene()
+				this.setChildIndex(this.Group_mbtn, this.numChildren)
+				break
+			case 3:
+				SceneManager.toAboutScene()
 				this.setChildIndex(this.Group_mbtn, this.numChildren)
 				break
 			default:

@@ -22,13 +22,12 @@ var MainScene = (function (_super) {
         this.Group_mbtn.touchEnabled = true;
         this.Group_mbtn.addEventListener(egret.TouchEvent.TOUCH_TAP, function (e) {
             var theBtn = e.target;
-            if (theBtn.selected && theBtn.selected != undefined) {
-                _this.toggleBtn(theBtn);
-            }
-            else {
-                theBtn.selected = true;
-            }
-            //this.toggleBtn(theBtn);
+            // if (theBtn.selected && theBtn.selected != undefined) {
+            // 	this.toggleBtn(theBtn);
+            // } else {
+            // 	theBtn.selected = true;
+            // }
+            _this.toggleBtn(theBtn);
         }, this);
     };
     MainScene.prototype.toggleBtn = function (btn) {
@@ -49,6 +48,14 @@ var MainScene = (function (_super) {
                 break;
             case 1:
                 SceneManager.toHeroScene();
+                this.setChildIndex(this.Group_mbtn, this.numChildren);
+                break;
+            case 2:
+                SceneManager.toGoodsScene();
+                this.setChildIndex(this.Group_mbtn, this.numChildren);
+                break;
+            case 3:
+                SceneManager.toAboutScene();
                 this.setChildIndex(this.Group_mbtn, this.numChildren);
                 break;
             default:

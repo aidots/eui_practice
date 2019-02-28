@@ -40,6 +40,7 @@ class PlayerScene extends eui.Component implements  eui.UIComponent {
 
 	private returnMain(){
 		SceneManager.toMainScene()
+		SceneManager.instance.mainScene.toggleBtn(0)
 	}
 	
 }

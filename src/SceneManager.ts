@@ -3,12 +3,16 @@ class SceneManager {
     public mainScene: MainScene
     public playScene: PlayerScene
     public heroScene: HeroScene
+    public goodsScene: GoodsScene
+    public aboutScene: AboutScene
 
 
     constructor() {
         this.mainScene = new MainScene()
         this.playScene = new PlayerScene()
         this.heroScene = new HeroScene()
+        this.goodsScene = new GoodsScene()
+        this.aboutScene = new AboutScene()
     }
 
     static sceneManager: SceneManager
@@ -24,7 +28,7 @@ class SceneManager {
     }
 
     private removeOtherScenes(scene){
-        let sceneArr = [this.playScene,this.heroScene];
+        let sceneArr = [this.playScene,this.heroScene,this.goodsScene,this.aboutScene];
         sceneArr.forEach((item)=>{
             if(item==scene){
                 return
@@ -54,7 +58,14 @@ class SceneManager {
         SceneManager.instance.removeOtherScenes(this.instance.heroScene)
         SceneManager.instance.mainScene.addChild(this.instance.heroScene)
     }
-
+    static toGoodsScene() {
+        SceneManager.instance.removeOtherScenes(this.instance.goodsScene)
+        SceneManager.instance.mainScene.addChild(this.instance.goodsScene)
+    }
+    static toAboutScene() {
+        SceneManager.instance.removeOtherScenes(this.instance.aboutScene)
+        SceneManager.instance.mainScene.addChild(this.instance.aboutScene)
+    }
     static showInfo(arr:string[]){
         let text:string = "您选择了："
         if(arr.length==0){

@@ -38,5 +38,15 @@
         "path": "HeroScene.ts",
         "class": "HeroScene",
         "parentPath": ""
+    },
+    "1693489a48b": {
+        "path": "GoodsScene.ts",
+        "class": "GoodsScene",
+        "parentPath": ""
+    },
+    "16934b39df8": {
+        "path": "AboutScene.ts",
+        "class": "AboutScene",
+        "parentPath": ""
     }
 }

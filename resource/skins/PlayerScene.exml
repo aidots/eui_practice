@@ -16,7 +16,7 @@
 	<e:Button id="btn_zhuangbei" label="" x="30.5" y="630">
 		<e:skinName>
 			<e:Skin states="up,down,disabled">
-			<e:Image width="100%" height="100%" source="btnEquip_png"/>
+			<e:Image width="90%" height="90%" width.down="100%" height.down="100%" verticalCenter="0" horizontalCenter="0" source="btnEquip_png"/>
 			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
 			</e:Skin>
 		</e:skinName>
@@ -24,7 +24,7 @@
 	<e:Button id="btn_qianghua" label="" x="284.5" y="630">
 		<e:skinName>
 			<e:Skin states="up,down,disabled">
-			<e:Image width="100%" height="100%" source="btnStrengthen_png"/>
+			<e:Image width="90%" height="90%" width.down="100%" height.down="100%" verticalCenter="0" horizontalCenter="0" source="btnStrengthen_png"/>
 			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
 			</e:Skin>
 		</e:skinName>

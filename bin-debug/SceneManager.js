@@ -6,6 +6,8 @@ var SceneManager = (function () {
         this.mainScene = new MainScene();
         this.playScene = new PlayerScene();
         this.heroScene = new HeroScene();
+        this.goodsScene = new GoodsScene();
+        this.aboutScene = new AboutScene();
     }
     Object.defineProperty(SceneManager, "instance", {
         get: function () {
@@ -22,7 +24,7 @@ var SceneManager = (function () {
     };
     SceneManager.prototype.removeOtherScenes = function (scene) {
         var _this = this;
-        var sceneArr = [this.playScene, this.heroScene];
+        var sceneArr = [this.playScene, this.heroScene, this.goodsScene, this.aboutScene];
         sceneArr.forEach(function (item) {
             if (item == scene) {
                 return;
@@ -41,16 +43,20 @@ var SceneManager = (function () {
         SceneManager.instance.removeOtherScenes(mainScene);
     };
     SceneManager.toPlayerScene = function () {
-
-        var stage = this.instance._stage;
-        stage.addChild(this.instance.playScene);
-
         SceneManager.instance.removeOtherScenes(this.instance.playScene);
         SceneManager.instance.mainScene.addChild(this.instance.playScene);
     };
     SceneManager.toHeroScene = function () {
         SceneManager.instance.removeOtherScenes(this.instance.heroScene);
         SceneManager.instance.mainScene.addChild(this.instance.heroScene);
+    };
+    SceneManager.toGoodsScene = function () {
+        SceneManager.instance.removeOtherScenes(this.instance.goodsScene);
+        SceneManager.instance.mainScene.addChild(this.instance.goodsScene);
+    };
+    SceneManager.toAboutScene = function () {
+        SceneManager.instance.removeOtherScenes(this.instance.aboutScene);
+        SceneManager.instance.mainScene.addChild(this.instance.aboutScene);
     };
     SceneManager.showInfo = function (arr) {
         var text = "您选择了：";

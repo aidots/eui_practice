@@ -6,7 +6,7 @@
 	<e:Button id="btn_return" label="" x="18.67" y="130.33">
 		<e:skinName>
 			<e:Skin states="up,down,disabled">
-			<e:Image width="100%" height="100%" source="btnReturn_png"/>
+			<e:Image width="90%" height="90%" width.down="100%" height.down="100%" verticalCenter="0" horizontalCenter="0" source="btnReturn_png"/>
 			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
 			</e:Skin>
 		</e:skinName>
@@ -14,7 +14,7 @@
 	<e:Button id="btn_select" label="" x="389.68" y="128.33">
 		<e:skinName>
 			<e:Skin states="up,down,disabled">
-			<e:Image width="100%" height="100%" source="btnOK_png"/>
+			<e:Image width="90%" height="90%" width.down="100%" height.down="100%" verticalCenter="0" horizontalCenter="0" source="btnOK_png"/>
 			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
 			</e:Skin>
 		</e:skinName>

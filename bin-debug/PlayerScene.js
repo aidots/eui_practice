@@ -34,6 +34,7 @@ var PlayerScene = (function (_super) {
     };
     PlayerScene.prototype.returnMain = function () {
         SceneManager.toMainScene();
+        SceneManager.instance.mainScene.toggleBtn(0);
     };
     return PlayerScene;
 }(eui.Component));

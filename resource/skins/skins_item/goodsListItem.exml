@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="goodsListItem" width="443" height="104" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="listItemBkgd_png"/>
+	<e:Image width="57" height="67" x="34" y="19" anchorOffsetX="0" anchorOffsetY="0" source="{data.image}"/>
+	<e:Label text="{data.name}" x="155" y="23" textColor="0xff9e00" size="20" fontFamily="Microsoft YaHei"/>
+	<e:Label text="{data.value}" x="126" y="64" textColor="0xff9e00" size="20" fontFamily="Microsoft YaHei"/>
+</e:Skin>

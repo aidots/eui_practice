@@ -140,6 +140,10 @@ var Main = (function (_super) {
      */
     Main.prototype.createGameScene = function () {
         this.addChild(new MainScene());
+        // // 把this设置为场景管理器的根舞台
+        // SceneManager.instance.setStage(this)
+        // // 调用SceneManager的静态方法
+        // SceneManager.toMainScene();
     };
     /**
      * 根据name关键字创建一个Bitmap对象。name属性请参考resources/resource.json配置文件的内容。

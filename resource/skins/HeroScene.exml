@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HeroSceneSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16933d60a80" ></w:Config>
+	<e:Image source="bgListPage_jpg" left="0" top="0"/>
+	<e:Image source="herosTitle_png" x="174" y="130.33"/>
+	<e:Button id="btn_return" label="" x="18.67" y="130.33">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btnReturn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_select" label="" x="389.68" y="128.33">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btnOK_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller id="scr_hero" width="454.66" height="517.34" x="11" y="181" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="on">
+		<e:List id="list_hero" itemRendererSkinName="heroListItem"/>
+	</e:Scroller>
+</e:Skin>

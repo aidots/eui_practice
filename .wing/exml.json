@@ -33,5 +33,10 @@
         "path": "../resource/skins/skins_item/zhuangbeiItem.ts",
         "class": "zhuangbeiItem",
         "parentPath": ""
+    },
+    "16933d60a80": {
+        "path": "HeroScene.ts",
+        "class": "HeroScene",
+        "parentPath": ""
     }
 }

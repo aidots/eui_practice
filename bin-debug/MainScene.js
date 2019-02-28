@@ -47,6 +47,10 @@ var MainScene = (function (_super) {
                 SceneManager.toPlayerScene();
                 this.setChildIndex(this.Group_mbtn, this.numChildren);
                 break;
+            case 1:
+                SceneManager.toHeroScene();
+                this.setChildIndex(this.Group_mbtn, this.numChildren);
+                break;
             default:
                 break;
         }

@@ -10,6 +10,8 @@
 	],
 	"game": [
 		"bin-debug/AssetAdapter.js",
+		"bin-debug/HeroList_item.js",
+		"bin-debug/HeroScene.js",
 		"bin-debug/LoadingUI.js",
 		"bin-debug/Main.js",
 		"bin-debug/MainScene.js",

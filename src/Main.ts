@@ -74,7 +74,11 @@ class Main extends eui.UILayer {
      * Create scene interface
      */
     protected createGameScene(): void {
-        this.addChild(new MainScene());
+        // this.addChild(new MainScene());//只这样写就没有初始化场景管理器的根舞台，切换操作就无效了
+        // 把this设置为场景管理器的根舞台
+        SceneManager.instance.setStage(this)
+        // 调用SceneManager的静态方法
+        SceneManager.toMainScene();
 
     }
     /**
